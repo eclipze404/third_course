@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сообщения</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Личный кабинет</a>
+        <a href="messages.html">Сообщения</a>
+        <a href="statistics.html">Статистика</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1>Сообщения</h1>
+
+    <section class="messages">
+        <h2>Полученные сообщения</h2>
+
+        <div class="message">
+            <strong>Боб Бобыч</strong>
+            <p>чеутятам?</p>
+        </div>
+
+        <div class="message">
+            <strong>Гав Гавыч</strong>
+            <p>wait what?..</p>
+        </div>
+    </section>
+
+    <section class="send-message">
+        <h2>Новое сообщение</h2>
+
+        <form>
+            <label for="recipient">Получатель</label>
+            <input type="text" id="recipient" name="recipient">
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
